@@ -1,0 +1,12 @@
+#include <DxLib.h>
+int WINAPI WinMain(HINSTANCE h1, HINSTANCE hP, LPSTR lpC ,int nC){
+	ChangeWindowMode(TRUE);
+	if (DxLib_Init() == -1){
+		return 1;
+	}
+	int ghandle = LoadGraph("media\\smp1_chara01.png");
+	DrawGraph(0, 0, ghandle, TRUE);
+	WaitKey();
+	DxLib_End();
+	return 0;
+}

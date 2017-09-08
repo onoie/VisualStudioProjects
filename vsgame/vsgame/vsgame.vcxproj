@@ -88,6 +88,13 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="no1.txt" />
+    <Text Include="no2.txt" />
+    <Text Include="no3.txt" />
+    <Text Include="no4.txt" />
+    <Text Include="README.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

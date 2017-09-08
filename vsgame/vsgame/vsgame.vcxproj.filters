@@ -19,4 +19,21 @@
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+    <Text Include="no3.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+    <Text Include="no2.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+    <Text Include="no1.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+    <Text Include="no4.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
